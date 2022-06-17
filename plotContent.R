@@ -5,6 +5,7 @@
 ## load libraries
 library(ggplot2)
 library(readxl)
+library(cowplot)
 
 ## load BLAST summary results
 geneContent <- read_xlsx('targetedGene_query_trimmed.xlsx')  
